@@ -24,8 +24,18 @@ int main()
   //the first and second blanks should be replaced with the coordinates
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
+wordGrid[1][1] = "meme4";
 
-  
+    if(wordGrid.size()>0 && wordGrid[0].size()>0)
+        {
+         for(int i =0; i < wordGrid.size();i++)
+         {
+            for(int j =0;j<wordGrid[i].size();j++)
+           {
+           cout<<"Row "<<i<<"Column "<<j<<"is "<<wordGrid[i][j]<<endl;
+           }
+         }
+        }
 
 
 
